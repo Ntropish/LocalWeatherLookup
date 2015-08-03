@@ -6,16 +6,16 @@ $(document).ready(function(){
     var temp = 0;
     var images = {
         sky: {
-            clear:'http://i.imgur.com/PeSFvKC.jpg',
-            cloud:'http://i.imgur.com/Xw3fyM2.jpg',
-            overcast:'http://i.imgur.com/IyMA4LF.jpg',
-            rain:'http://i.imgur.com/VhM58bh.png',
-            storm:'http://i.imgur.com/5ueBNvJ.jpg'
+            clear:'resources/img/clear.jpg',
+            cloud:'resources/img/cloud.jpg',
+            overcast:'resources/img/overcast.jpg',
+            rain:'resources/img/rain.png',
+            storm:'resources/img/storm.jpg'
         },
         ground: {
-            cold:'http://i.imgur.com/0QIlSba.jpg',
-            avg:'http://i.imgur.com/DWtgty7.jpg',
-            hot:'http://i.imgur.com/UlgCbDY.jpg'
+            cold:'resources/img/cold.jpg',
+            avg:'resources/img/avg.jpg',
+            hot:'resources/img/hot.jpg'
         }
     };
     function display(data) {
